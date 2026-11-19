@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Private Events | Solstice &amp; Shore — Orillia, ON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>Solstice &amp; Shore</span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html" class="active">Private Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html#reserve" class="btn btn-primary">Reserve a Table</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Gatherings &amp; Buyouts</span>
+        <h1>Private Events &amp; Catering</h1>
+        <p>Host intimate rehearsal dinners, milestone birthdays, or team lunches overlooking Lake Couchiching.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <article class="card">
+          <div class="card-body">
+            <h3>The Sunroom</h3>
+            <p style="color:var(--terracotta); font-weight:600; font-size:0.85rem; margin-bottom:0.75rem;">Up to 22 Seated Guests</p>
+            <p>Semi-private glass-walled corner with direct access to the waterfront terrace and custom family-style menus.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <h3>Waterfront Patio Buyout</h3>
+            <p style="color:var(--terracotta); font-weight:600; font-size:0.85rem; margin-bottom:0.75rem;">Up to 48 Guests</p>
+            <p>Dedicated outdoor bar, string-lit cedar pergola, and seasonal passed canapes or seated three-course dinner.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-body">
+            <h3>Full Restaurant Buyout</h3>
+            <p style="color:var(--terracotta); font-weight:600; font-size:0.85rem; margin-bottom:0.75rem;">Up to 95 Seated / 120 Cocktail</p>
+            <p>Exclusive use of the main dining room, terrazzo bar, and patio with curated wine pairings from our cellar.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container" style="max-width:780px;">
+        <div class="section-header" style="margin-bottom:1.75rem;">
+          <div>
+            <h2>Request an Event Date</h2>
+            <p>Share a few details below and our events coordinator will follow up within 24 hours.</p>
+          </div>
+        </div>
+        <form class="form-card" data-demo-form>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="ev-name">Full Name</label>
+              <input id="ev-name" name="name" type="text" placeholder="Jordan Taylor" required />
+            </div>
+            <div class="form-group">
+              <label for="ev-email">Email</label>
+              <input id="ev-email" name="email" type="email" placeholder="jordan@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="ev-date">Preferred Date</label>
+              <input id="ev-date" name="date" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="ev-guests">Estimated Guests</label>
+              <input id="ev-guests" name="guests" type="number" min="8" max="120" placeholder="24" required />
+            </div>
+            <div class="form-group full">
+              <label for="ev-space">Preferred Space</label>
+              <select id="ev-space" name="space">
+                <option>The Sunroom (up to 22)</option>
+                <option>Waterfront Patio (up to 48)</option>
+                <option>Full Restaurant Buyout (up to 95)</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="ev-notes">Event Notes</label>
+              <textarea id="ev-notes" name="notes" rows="4" placeholder="Dietary needs, occasion, or timing details..."></textarea>
+            </div>
+          </div>
+          <div style="margin-top:1.25rem;">
+            <button type="submit" class="btn btn-primary">Send Event Inquiry</button>
+          </div>
+          <div class="form-feedback" role="status"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Solstice &amp; Shore</h4>
+          <p style="max-width:34ch; font-size:0.92rem; color:rgba(255,255,255,0.75);">
+            Lakefront kitchen and cocktail bar serving seasonal Ontario plates in downtown Orillia.
+          </p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Private Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <ul class="footer-links">
+            <li>Tue &ndash; Thu: 4:00 PM &ndash; 10:00 PM</li>
+            <li>Fri: 12:00 PM &ndash; 11:00 PM</li>
+            <li>Sat: 10:00 AM &ndash; 11:00 PM</li>
+            <li>Sun: 10:00 AM &ndash; 9:00 PM</li>
+            <li>Mon: Closed</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <ul class="footer-links">
+            <li>142 Mississaga St E</li>
+            <li>Orillia, ON L3V 1V8</li>
+            <li>(705) 555-0184</li>
+            <li>hello@solsticeandshore.ca</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Solstice &amp; Shore Orillia. Demo Website.</span>
+        <span>Centennial Waterfront &middot; Simcoe County</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

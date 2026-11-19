@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Solstice &amp; Shore — Orillia, ON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>Solstice &amp; Shore</span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Private Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html#reserve" class="btn btn-primary">Reserve a Table</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Seasonal Kitchen &amp; Bar</span>
+        <h1>Our Menu</h1>
+        <p>Filter by service or course below. Please let your server know about any allergies or dietary preferences.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" data-filter-bar=".menu-item">
+          <button class="filter-btn active" data-category="all">All Items</button>
+          <button class="filter-btn" data-category="starters">Starters &amp; Shareables</button>
+          <button class="filter-btn" data-category="mains">Wood-Fired Mains</button>
+          <button class="filter-btn" data-category="brunch">Weekend Brunch</button>
+          <button class="filter-btn" data-category="drinks">Cocktails &amp; Zero-Proof</button>
+          <button class="filter-btn" data-category="desserts">Desserts</button>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Starters -->
+          <article class="menu-item" data-category="starters">
+            <div class="menu-item-info">
+              <h3>Charred Sourdough &amp; Whipped Ricotta</h3>
+              <p>Local wildflower honey, thyme, flaky sea salt, and roasted garlic oil.</p>
+              <div class="badges"><span class="badge">Vegetarian</span></div>
+            </div>
+            <span class="price-tag">$15</span>
+          </article>
+
+          <article class="menu-item" data-category="starters">
+            <div class="menu-item-info">
+              <h3>Smoked Whitefish Dip</h3>
+              <p>Georgian Bay whitefish, pickled shallots, dill, and kettle-cooked chips.</p>
+              <div class="badges"><span class="badge accent">Local Favorite</span></div>
+            </div>
+            <span class="price-tag">$18</span>
+          </article>
+
+          <article class="menu-item" data-category="starters">
+            <div class="menu-item-info">
+              <h3>Roasted Beet &amp; Citrus Salad</h3>
+              <p>Oro-Medonte baby greens, goat cheese mousse, toasted hazelnuts, and sherry vinaigrette.</p>
+              <div class="badges"><span class="badge">GF</span><span class="badge">Vegetarian</span></div>
+            </div>
+            <span class="price-tag">$17</span>
+          </article>
+
+          <article class="menu-item" data-category="starters">
+            <div class="menu-item-info">
+              <h3>Crispy Maitake Mushrooms</h3>
+              <p>Black garlic aioli, charred scallion, and lemon zest.</p>
+              <div class="badges"><span class="badge">Vegan Option</span></div>
+            </div>
+            <span class="price-tag">$16</span>
+          </article>
+
+          <!-- Mains -->
+          <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+              <h3>Pan-Seared Georgian Bay Trout</h3>
+              <p>Roasted heirloom carrots, crushed fingerlings, charred lemon, and fennel herb oil.</p>
+              <div class="badges"><span class="badge">GF</span><span class="badge accent">Signature</span></div>
+            </div>
+            <span class="price-tag">$32</span>
+          </article>
+
+          <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+              <h3>10oz Ontario Striploin</h3>
+              <p>Wood-grilled over white oak, rosemary bone marrow butter, and charred broccolini.</p>
+              <div class="badges"><span class="badge">GF</span></div>
+            </div>
+            <span class="price-tag">$44</span>
+          </article>
+
+          <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+              <h3>Summer Corn &amp; Ricotta Agnolotti</h3>
+              <p>Handmade pasta, sweet basil emulsion, blistered cherry tomatoes, and aged parmesan.</p>
+              <div class="badges"><span class="badge">Vegetarian</span></div>
+            </div>
+            <span class="price-tag">$28</span>
+          </article>
+
+          <article class="menu-item" data-category="mains">
+            <div class="menu-item-info">
+              <h3>Hearth-Roasted Half Chicken</h3>
+              <p>Maple-mustard glaze, crispy smashed potatoes, and pickled mustard seed jus.</p>
+              <div class="badges"><span class="badge">GF</span></div>
+            </div>
+            <span class="price-tag">$30</span>
+          </article>
+
+          <!-- Brunch -->
+          <article class="menu-item" data-category="brunch">
+            <div class="menu-item-info">
+              <h3>Brioche French Toast</h3>
+              <p>Simcoe County maple syrup, mascarpone cream, and roasted Ontario strawberries.</p>
+              <div class="badges"><span class="badge">Sat &amp; Sun</span></div>
+            </div>
+            <span class="price-tag">$20</span>
+          </article>
+
+          <article class="menu-item" data-category="brunch">
+            <div class="menu-item-info">
+              <h3>Smoked Trout &amp; Poached Egg Hash</h3>
+              <p>Crispy Yukon gold potatoes, capers, dill creme fraiche, and sourdough toast.</p>
+              <div class="badges"><span class="badge">Sat &amp; Sun</span></div>
+            </div>
+            <span class="price-tag">$23</span>
+          </article>
+
+          <!-- Drinks -->
+          <article class="menu-item" data-category="drinks">
+            <div class="menu-item-info">
+              <h3>Couchiching Spritz</h3>
+              <p>Ontario botanical gin, blood orange aperitivo, rosemary, and dry sparkling wine.</p>
+              <div class="badges"><span class="badge accent">House Cocktail</span></div>
+            </div>
+            <span class="price-tag">$16</span>
+          </article>
+
+          <article class="menu-item" data-category="drinks">
+            <div class="menu-item-info">
+              <h3>Lakeside Paloma (Zero-Proof)</h3>
+              <p>Fresh pink grapefruit, lime, agave, smoked sea salt, and sparkling botanical water.</p>
+              <div class="badges"><span class="badge">Zero-Proof</span></div>
+            </div>
+            <span class="price-tag">$10</span>
+          </article>
+
+          <!-- Desserts -->
+          <article class="menu-item" data-category="desserts">
+            <div class="menu-item-info">
+              <h3>Warm Honey &amp; Olive Oil Cake</h3>
+              <p>Whipped vanilla creme fraiche and toasted pistachios.</p>
+              <div class="badges"><span class="badge">Vegetarian</span></div>
+            </div>
+            <span class="price-tag">$13</span>
+          </article>
+
+          <article class="menu-item" data-category="desserts">
+            <div class="menu-item-info">
+              <h3>Dark Chocolate &amp; Espresso Tart</h3>
+              <p>Salted caramel drizzle and hazelnut praline crunch.</p>
+              <div class="badges"><span class="badge">Vegetarian</span></div>
+            </div>
+            <span class="price-tag">$14</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Solstice &amp; Shore</h4>
+          <p style="max-width:34ch; font-size:0.92rem; color:rgba(255,255,255,0.75);">
+            Lakefront kitchen and cocktail bar serving seasonal Ontario plates in downtown Orillia.
+          </p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Private Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <ul class="footer-links">
+            <li>Tue &ndash; Thu: 4:00 PM &ndash; 10:00 PM</li>
+            <li>Fri: 12:00 PM &ndash; 11:00 PM</li>
+            <li>Sat: 10:00 AM &ndash; 11:00 PM</li>
+            <li>Sun: 10:00 AM &ndash; 9:00 PM</li>
+            <li>Mon: Closed</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <ul class="footer-links">
+            <li>142 Mississaga St E</li>
+            <li>Orillia, ON L3V 1V8</li>
+            <li>(705) 555-0184</li>
+            <li>hello@solsticeandshore.ca</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Solstice &amp; Shore Orillia. Demo Website.</span>
+        <span>Centennial Waterfront &middot; Simcoe County</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

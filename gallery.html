@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Solstice &amp; Shore — Orillia, ON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>Solstice &amp; Shore</span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="events.html">Private Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html#reserve" class="btn btn-primary">Reserve a Table</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Inside &amp; Out</span>
+        <h1>Gallery</h1>
+        <p>Click any photo to view full size, or filter by plates, drinks, and our lakefront space.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" data-filter-bar=".gallery-tile">
+          <button class="filter-btn active" data-category="all">All Photos</button>
+          <button class="filter-btn" data-category="food">Plates</button>
+          <button class="filter-btn" data-category="drinks">Bar &amp; Cocktails</button>
+          <button class="filter-btn" data-category="space">Dining Room &amp; Patio</button>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-tile" data-category="food">
+            <img src="assets/hero-spread.jpg" alt="Lakefront dinner spread at golden hour" />
+            <div class="gallery-caption">Golden hour dinner spread overlooking Lake Couchiching</div>
+          </div>
+
+          <div class="gallery-tile" data-category="food">
+            <img src="assets/dish-trout.jpg" alt="Pan-seared Georgian Bay trout" />
+            <div class="gallery-caption">Pan-seared Georgian Bay trout with charred lemon and herb oil</div>
+          </div>
+
+          <div class="gallery-tile" data-category="drinks">
+            <img src="assets/craft-cocktails.jpg" alt="Craft citrus and rosemary cocktails" />
+            <div class="gallery-caption">Seasonal botanical spritz and citrus rocks cocktail</div>
+          </div>
+
+          <div class="gallery-tile" data-category="space">
+            <img src="assets/dining-room.jpg" alt="Sunlit dining room and patio" />
+            <div class="gallery-caption">Main dining room and waterfront terrace on Mississaga St E</div>
+          </div>
+
+          <div class="gallery-tile" data-category="food space">
+            <img src="assets/hero-spread.jpg" alt="Shared table with sourdough and salads" />
+            <div class="gallery-caption">Shared hearth plates, sourdough, and summer market greens</div>
+          </div>
+
+          <div class="gallery-tile" data-category="drinks space">
+            <img src="assets/craft-cocktails.jpg" alt="Terrazzo bar top overlooking the lake" />
+            <div class="gallery-caption">Afternoon aperitivo hour at the terrazzo bar</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <div class="lightbox-content">
+      <img src="" alt="" />
+      <div class="lightbox-footer">
+        <span data-lb-caption style="font-weight:600; color:var(--pine);"></span>
+        <button class="lightbox-close" type="button">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Solstice &amp; Shore</h4>
+          <p style="max-width:34ch; font-size:0.92rem; color:rgba(255,255,255,0.75);">
+            Lakefront kitchen and cocktail bar serving seasonal Ontario plates in downtown Orillia.
+          </p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Private Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <ul class="footer-links">
+            <li>Tue &ndash; Thu: 4:00 PM &ndash; 10:00 PM</li>
+            <li>Fri: 12:00 PM &ndash; 11:00 PM</li>
+            <li>Sat: 10:00 AM &ndash; 11:00 PM</li>
+            <li>Sun: 10:00 AM &ndash; 9:00 PM</li>
+            <li>Mon: Closed</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <ul class="footer-links">
+            <li>142 Mississaga St E</li>
+            <li>Orillia, ON L3V 1V8</li>
+            <li>(705) 555-0184</li>
+            <li>hello@solsticeandshore.ca</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Solstice &amp; Shore Orillia. Demo Website.</span>
+        <span>Centennial Waterfront &middot; Simcoe County</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
